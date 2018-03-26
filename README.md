@@ -2,12 +2,16 @@
 ****Goal:**** Implementation and Evaluation of the Naive Bayes algorithm in Python for Movie reviews sourced from IMDB
 
 ****Process Overview:**** 
--First curate the reviews in the training dataset to create a bag of words dictionary with each word having a unique identifier and frequency based on which probabilities will be calculated. (Call to IMDB.py and Vocab.py)
--Then read the test dataset and obtain labels for each review by lookinng at the bag of words from the training dataset and their probabilites using the frequency tables as mentioned above. (NaiveBayes.py)
+-First curate the reviews in the training dataset to create a bag of words dictionary with each word having a unique 
+ identifier and frequency based on which probabilities will be calculated. (Call to IMDB.py and Vocab.py)
+-Then read the test dataset and obtain labels for each review by lookinng at the bag of words from the training dataset 
+ and their probabilites using the frequency tables as mentioned above. (NaiveBayes.py)
 -All probabilities are calculated using logsum. (NaiveBayes.py)
 -An alpha level of smoothing is also set to offset for newly occuring words.
--Evaluation occurs by measuring accuracy,precision and recall for different levels of alpha and plotting the precision vs recall curve.   (Eval.py)
--Additionally, modules for printing Features (top 20 influential words in each class) and a predict function to give the prediction for any review are also implemented. (NaiveBayes.py)
+-Evaluation occurs by measuring accuracy,precision and recall for different levels of alpha and plotting 
+ the precision vs recall curve.   (Eval.py)
+-Additionally, modules for printing Features (top 20 influential words in each class) and a predict function to give the 
+ prediction for any review are also implemented. (NaiveBayes.py)
 
 
 ****Dataset:**** 
@@ -48,7 +52,8 @@ review page.
 
 
 @InProceedings{maas-EtAl:2011:ACL-HLT2011,
-  author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
+  author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  
+                Ng, Andrew Y.  and  Potts, Christopher},
   title     = {Learning Word Vectors for Sentiment Analysis},
   booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
   month     = {June},
