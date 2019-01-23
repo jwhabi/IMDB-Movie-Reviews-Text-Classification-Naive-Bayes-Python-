@@ -1,4 +1,4 @@
-# IMDB-Review-Text-Classification-Naive-Bayes-Python-
+# IMDB-Movie Reviews-Text-Classification-Naive-Bayes-Python-
 ****Goal:**** Implementation and Evaluation of the Naive Bayes algorithm in Python for Movie reviews sourced from IMDB
 
 ****Process Overview:**** 
